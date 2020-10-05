@@ -61,22 +61,20 @@ def cw():
 def ccw():
     sendmsg('ccw 5')
 
-if keyboard.is_pressed('w'):
-    wpressed = true
-
-while True:
-    while wpressed = True:
-
+wpressed = False
+spressed = False
 
 while True:  # making a loop
     try:  # used try so that if user pressed other than the given key error will not be shown
         if keyboard.is_pressed('w'):
-            wpressed = True:
-            while wpressed = True:
+            wpressed == True
+            while wpressed == True:
+                print("forward")
                 forward()
         elif keyboard.is_pressed('s'):
-            spressed = True:
-            while spressed = True:
+            spressed = True
+            while spressed == True:
+                print("backward")
                 back()
         elif keyboard.is_pressed('up'):
             print('up 20')
